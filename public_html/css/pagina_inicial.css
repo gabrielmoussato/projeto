@@ -43,7 +43,7 @@ body{ background-color: #fff }
 {
     text-decoration: none;
     font-family: 'Pristina';
-    color: #CA2641;
+    color: #15D3B2;
     font-size: 24pt;
     margin: 0 30px;
 }
@@ -77,26 +77,40 @@ body{ background-color: #fff }
 
 #itens .nav-pequeno 
 {
-    border: 1px solid chartreuse;
     float: left;
     margin: 50px 50px;
 }
 
 #itens .nav-pequeno img
 {
-    width: 185px;
+    width: 187px;
     padding: 49px;
-    height: 185px;
+    height: 220px;
 }
 
-#azul
+#verde
 {
-    color: #1376CA;
+    background-color: #15D3B2;
 }
 
-#itens #laranja .nav-pequeno
+#vermelho
 {
-    color: #CA4F13;
+    background-color: #D72322;
+}
+.footer 
+{
+    max-width: 1200px;
+    margin: 1800px 0;
+    border: 1px solid cyan;
+    float: bottom;
+}
+
+.footer p
+{
+    text-align: center;
+    padding-top: 15px;
+    
+    float: bottom;
 }
 
 
