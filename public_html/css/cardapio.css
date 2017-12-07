@@ -1,0 +1,81 @@
+/*
+CSS responsavel pelo comportamento do index.html
+*/
+
+/* Gradiente do Body */
+body
+{ 
+    background-color: #fff;
+    overflow-x: hidden;
+}
+
+.social-media
+{
+    width: 1630px;
+    height: 40px;
+    margin: -9px 0 15px -10px;
+    background-color: #F5FAEF;
+}
+
+.social-media img
+{
+    float: right;
+    margin: 7px 294px 0 0;
+}
+
+/* Divisao Cabeçalho (Header) */
+#header
+{
+    max-width: 852px;
+    margin: 0 auto;    
+}
+
+.header-logo img
+{
+    float: left; 
+    margin-left: -120px;
+    max-width: 176px;
+    max-height: 200px;
+}
+
+.header-menu 
+{
+    display: table;
+    float: right;
+}
+
+.header-menu ul 
+{
+    padding: 20px;
+    margin-right: -160px;
+}
+
+.header-menu ul li 
+{
+    display: inline-block;
+    color: #ca1036;
+}
+
+.header-menu ul li a 
+{
+    text-decoration: none;
+    font-family: 'Pristina';
+    color: #b83b3b;
+    font-size: 24pt;
+    margin: 0 30px;
+}
+
+.header-menu ul li a :hover
+{
+    color: #FFFF00;
+}
+
+#footer 
+{
+    width: 1630px;
+    text-align: center;
+    margin: 1200px 10px 0 -9px;
+    padding: 20px;
+    background-color: #E1E5DB;
+}
+
