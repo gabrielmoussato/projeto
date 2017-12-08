@@ -1,5 +1,5 @@
 /*
-CSS responsavel pelo comportamento do index.html
+CSS responsavel pelo comportamento do sobre.html
 */
 
 /* Gradiente do Body */
@@ -70,11 +70,30 @@ body
     color: #FFFF00;
 }
 
+#nav
+{
+    max-width: 775px;
+    margin: 30px auto;
+    height: 420px;
+}
+
+#nav #container h2
+{
+    text-align: center;
+    margin: 155px 0 21px;
+}
+
+#nav #container p
+{
+    text-align: justify;
+    padding-top: 18px;
+}
+
 #footer 
 {
     width: 1630px;
     text-align: center;
-    margin: 1200px 10px 0 -9px;
+    margin: 40px 10px 0 -9px;
     padding: 20px;
     background-color: #E1E5DB;
 }

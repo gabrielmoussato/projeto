@@ -9,7 +9,7 @@ body
     overflow-x: hidden;
 }
 
-.social-media
+.header-social-media
 {
     width: 1630px;
     height: 40px;
@@ -17,7 +17,7 @@ body
     background-color: #F5FAEF;
 }
 
-.social-media img
+.header-social-media img
 {
     float: right;
     margin: 7px 294px 0 0;
@@ -114,6 +114,7 @@ body
 {
     background-color: #D72322;
 }
+
 #footer 
 {
     width: 1630px;
